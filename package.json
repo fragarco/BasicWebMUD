@@ -37,6 +37,7 @@
     "css-loader": "^4.2.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.3",
+    "file-loader": "^6.0.0",
     "jest": "^26.4.2",
     "sass-loader": "^10.0.0",
     "style-loader": "^1.2.1",
@@ -58,6 +59,7 @@
     "@types/hapi__inert": "^5.2.0",
     "@types/react": "^16.9.47",
     "@types/react-dom": "^16.9.8",
+    "fomantic-ui-css": "^2.8.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
