@@ -1,6 +1,6 @@
 
 export enum GameStates {
-    STARTING,
+    START,
     PLAYING,
 };
 
@@ -8,8 +8,8 @@ export class GameState {
     public appstate: GameStates;
     private notifyNewState: (newstate: GameState) => void;
 
-    constructor(newStateCB: (GameState) => void) {
-        this.appstate = GameStates.STARTING;
+    constructor(newStateCB: (state: GameState) => void) {
+        this.appstate = GameStates.START;
         this.notifyNewState = newStateCB;
     };
 
