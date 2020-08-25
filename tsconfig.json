@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/server",
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "lib" : ["es5", "es6", "dom"],
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+  },
+
+  "files": [
+    "./src/server/main.ts",
+  ],
+}
+
